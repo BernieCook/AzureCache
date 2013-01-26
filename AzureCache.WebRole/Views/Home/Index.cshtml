@@ -1,0 +1,31 @@
+﻿@model AzureCache.WebRole.Models.HomeModels.IndexModel
+@{
+    ViewBag.Title = "Azure Cache";
+}
+
+<hgroup>
+    <h1>Azure Cache</h1>
+    
+    <h2>Role Instance Id: @ViewBag.RoleInstanceId</h2>
+</hgroup>
+
+@using (Html.BeginForm())
+{
+    <p>
+        Set or get cache:
+    </p> 
+    
+    @Html.LabelFor(m => m.Name)
+    @Html.TextBoxFor(m => m.Name)
+
+    <br/>
+    
+    @Html.LabelFor(m => m.Value)
+    @Html.TextBoxFor(m => m.Value)
+    
+    <br/>
+    
+    <button type="submit" name="button" value="set">Set</button>
+    <button type="submit" name="button" value="get">Get</button>
+}
+  

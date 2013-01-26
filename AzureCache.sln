@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "AzureCache", "AzureCache\AzureCache.ccproj", "{7F19411D-5205-4E1E-AA4C-9F0309139CEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureCache.WebRole", "AzureCache.WebRole\AzureCache.WebRole.csproj", "{8434D5A6-A94A-4AA2-B22E-F6D85AFCCD81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureCache.WorkerRole", "AzureCache.WorkerRole\AzureCache.WorkerRole.csproj", "{12DC8E20-6765-4AA9-A2C5-A857F07895B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureCache.CacheWorkerRole", "AzureCache.CacheWorkerRole\AzureCache.CacheWorkerRole.csproj", "{97565E51-FEFE-48ED-87E6-053C5A4EED6C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F19411D-5205-4E1E-AA4C-9F0309139CEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F19411D-5205-4E1E-AA4C-9F0309139CEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F19411D-5205-4E1E-AA4C-9F0309139CEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F19411D-5205-4E1E-AA4C-9F0309139CEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8434D5A6-A94A-4AA2-B22E-F6D85AFCCD81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8434D5A6-A94A-4AA2-B22E-F6D85AFCCD81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8434D5A6-A94A-4AA2-B22E-F6D85AFCCD81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8434D5A6-A94A-4AA2-B22E-F6D85AFCCD81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12DC8E20-6765-4AA9-A2C5-A857F07895B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12DC8E20-6765-4AA9-A2C5-A857F07895B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12DC8E20-6765-4AA9-A2C5-A857F07895B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12DC8E20-6765-4AA9-A2C5-A857F07895B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97565E51-FEFE-48ED-87E6-053C5A4EED6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97565E51-FEFE-48ED-87E6-053C5A4EED6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97565E51-FEFE-48ED-87E6-053C5A4EED6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97565E51-FEFE-48ED-87E6-053C5A4EED6C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
