@@ -4,7 +4,7 @@ A sample Azure solution which demonstrates how to wire up two cache clients; a w
 See the related blog post for more infromation:
 
 [Distributed Caching in Azure – Cache Worker Role]
-(http://berniecook.wordpress.com/2013/01/26/distributed-caching-in-azure-cache-worker-role)
+(http://berniecook.wordpress.com/2013/01/27/distributed-caching-in-azure-cache-worker-role/)
 
 ##Notes
 Licensed for usage under the [GNU Lesser General Public License, version 3.0 (LGPL-3.0)](http://www.opensource.org/licenses/lgpl-3.0.html).
